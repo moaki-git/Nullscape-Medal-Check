@@ -1,9 +1,8 @@
 # Nullscape Medal Checker
 
-> just a Basic Strategy Tool For your runs and only! *yea!!! inspired by Nullscape Shop Calculator*
+> just a Basic Strategy Tool For your runs and only! *yea!!! inspired by Nullscape Shop Calculator* 
 
-> Made By moaki
-
+*Made By moaki*
 ---
 
 ## So What is it?
