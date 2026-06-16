@@ -2,7 +2,6 @@
 
 > just a Basic Strategy Tool For your runs and only! *yea!!! inspired by Nullscape Shop Calculator* 
 
-*Made By moaki*
 
 ---
 
@@ -20,7 +19,7 @@
 
 • Any Theming/Code Related recommendations you can reach out to me at @moaki#0101
  
-• Bug reporting goes to @moaki#0101 my dms are always open
+• Bug reporting goes to @moaki#0101 my dms are always open ☺
 
 ---
 
@@ -34,4 +33,4 @@ Good luck out there, fellow strategists.🫡
 ---
 
 
-*Built for the Nullscape community · MIT Licensed (better safe than sorry :3)*
+*Made By moaki · Built for the Nullscape community · MIT Licensed (better safe than sorry :3)*
