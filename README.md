@@ -9,7 +9,7 @@
 
 • Self-explanatory, but here's the short of it this tool gives anyone a more strategic approach to Medal Selections in **NULLSCAPE**. Whether you're an over-thinker who plans every pick or someone still figuring out the game, this'll probably help you!
 
-• Eliminate and recall which Medal Curses you've already selected, so every choice you make going forward is an informed one.
+• Eliminate and recall which Medal Curses you've already selected, so every choice you make going forward is an well thought out one.!!!!!
 
 • Probably a very useless tool (this was made just for fun!)
 
