@@ -13,12 +13,15 @@
 • Eliminate and recall which Medal Curses you've already selected, so every choice you make going forward is an informed one.
 
 • Probably a very useless tool (this was made just for fun!)
+
+---
 ---
 
 ## Contributing
 
-# Any Theming/Code Related recommendations you can reach out to me at @moaki#0101
-# Bug reporting goes to @moaki#0101 my dms are always open
+• Any Theming/Code Related recommendations you can reach out to me at @moaki#0101
+ 
+• Bug reporting goes to @moaki#0101 my dms are always open
 
 ---
 
