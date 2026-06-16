@@ -3,6 +3,7 @@
 > just a Basic Strategy Tool For your runs and only! *yea!!! inspired by Nullscape Shop Calculator* 
 
 *Made By moaki*
+
 ---
 
 ## So What is it?
@@ -13,7 +14,6 @@
 
 • Probably a very useless tool (this was made just for fun!)
 
----
 ---
 
 ## Contributing
