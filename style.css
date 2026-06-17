@@ -32,10 +32,31 @@ body::after {
   display: block;
   margin: 0 auto;
   width: 450px; 
-  margin-top: -20px;
+  margin-top: 50px;
 }
 
 .containter-yep {
-    border: 30px #370753;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    max-width: 1200px;
+    border: 1px solid #a533a1;
+    border-radius: 12px;
+    background:#1e0035;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+    margin: 0 auto;
+    margin-top: 25px;
+
+}
+
+.container button {
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: 1px solid #a533a1, #000000;
+  background: #1e0035;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
 
 }
