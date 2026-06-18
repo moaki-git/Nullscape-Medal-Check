@@ -26,6 +26,7 @@ body::after {
   background-attachment: scroll;
   background-size: 200px 200px;
   z-index: 9999;
+  pointer-events: none;
 }
 
 .center-image {
@@ -35,28 +36,128 @@ body::after {
   margin-top: 50px;
 }
 
-.containter-yep {
+.container-yep {
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding: 20px;
     max-width: 1200px;
-    border: 1px solid #a533a1;
+    border: 1px solid #a53333;
     border-radius: 12px;
-    background:#1e0035;
+    background:linear-gradient(#a53333, #000000);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
     margin: 0 auto;
     margin-top: 25px;
 
 }
 
-.container button {
-  padding: 10px 16px;
+.container-gc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    max-width: 1200px;
+    border: 1px solid #c78100;
+    border-radius: 12px;
+    background: linear-gradient(#c78100, #000000);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.button-question {
+  padding: 10px 15px;
   border-radius: 6px;
-  border: 1px solid #a533a1, #000000;
-  background: #1e0035;
+  border: 1px solid #61135e;
+  background: linear-gradient(#61135e, #000000);
   color: white;
+  font-size: 20px;
+  font-family: 'Courier New', monospace;
   cursor: pointer;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
 
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.button-question:hover {
+  transform: scale(1.05);
+  filter: brightness(1.35);
+}
+
+
+/* Button thingies */
+
+.button {
+  padding: 10px 16px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  filter: brightness(0.8);
+}
+
+/* Difficulty Selection */
+
+.difficulty {
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 1px solid #61135e;
+  background: linear-gradient(#61135e, #000000);
+  color: white;
+  font-size: 20px;
+  font-family: 'Courier New', monospace;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.difficulty:hover {
+  transform: scale(1.05);
+  filter: brightness(0.8);
+}
+
+.selection-area {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.difficulty-image {
+    width: 65px;
+    height: auto;
+}
+
+.image-box {
+    width: 50px;
+    height: 50px;
+
+    border-radius: 12px;
+    border: 1px solid #61135e;
+
+    background: linear-gradient(180deg, #61135e, #000000); 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: background 0.3s ease;
+}
+
+.difficulty-image {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+/* Top Bar */
+.top-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 50px;
 }
