@@ -1,3 +1,12 @@
+/* GLOBAL */
+
+label {
+  color: #d9b3ff;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -36,28 +45,29 @@ body::after {
   margin-top: 50px;
 }
 
-.container-yep {
+/* Container stuff */
+.container-enemies {
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding: 20px;
     max-width: 1200px;
-    border: 1px solid #a53333;
+    border: 1px solid #ff0c0c;
     border-radius: 12px;
-    background:linear-gradient(#a53333, #000000);
+    background:linear-gradient(#a70000, #000000);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
     margin: 0 auto;
     margin-top: 25px;
 
 }
 
-.container-gc {
+.container-greater-curses {
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding: 20px;
     max-width: 1200px;
-    border: 1px solid #c78100;
+    border: 1px solid #ffb52b;
     border-radius: 12px;
     background: linear-gradient(#c78100, #000000);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
@@ -69,7 +79,7 @@ body::after {
   padding: 10px 15px;
   border-radius: 6px;
   border: 1px solid #61135e;
-  background: linear-gradient(#61135e, #000000);
+  background: linear-gradient(#1a001a, #000000);
   color: white;
   font-size: 20px;
   font-family: 'Courier New', monospace;
@@ -102,25 +112,6 @@ body::after {
 
 /* Difficulty Selection */
 
-.difficulty {
-  padding: 10px 15px;
-  border-radius: 6px;
-  border: 1px solid #61135e;
-  background: linear-gradient(#61135e, #000000);
-  color: white;
-  font-size: 20px;
-  font-family: 'Courier New', monospace;
-  cursor: pointer;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
-
-  transition: transform 0.2s ease, filter 0.2s ease;
-}
-
-.difficulty:hover {
-  transform: scale(1.05);
-  filter: brightness(0.8);
-}
-
 .selection-area {
     display: flex;
     align-items: center;
@@ -139,7 +130,7 @@ body::after {
     border-radius: 12px;
     border: 1px solid #61135e;
 
-    background: linear-gradient(180deg, #61135e, #000000); 
+    background: linear-gradient(#1a001a, #000000); 
 
     display: flex;
     justify-content: center;
@@ -160,4 +151,94 @@ body::after {
     align-items: center;
     gap: 25px;
     margin-top: 50px;
+}
+
+/* SELECTION DROPDOWN bro why this so difficult to do :sob: */
+
+.custom-dropdown {
+  position: relative;
+  width: 220px;
+  font-family: 'Courier New', monospace;
+}
+
+/* Selected box */
+.dropdown-selected {
+  padding: 10px 17px;
+  border-radius: 6px;
+  border: 1px solid #61135e;
+  background: linear-gradient(#1a001a, #000000);
+  color: #d4b3ff;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.dropdown-selected:hover {
+  transform: scale(1.05);
+  filter: brightness(1.2);
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 100%;
+  background: #0b0010;
+  border: 1px solid #61135e;
+  border-radius: 6px;
+  display: none;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+/* Items */
+.dropdown-item {
+  padding: 10px;
+  color: #d4b3ff;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.dropdown-item:hover {
+  background: #2a002a;
+}
+
+
+/* Input */
+
+.Level-Input {
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 1px solid #61135e;
+  background: linear-gradient(#1a001a, #000000);
+  color: white;
+  font-size: 20px;
+  font-family: 'Courier New', monospace;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+
+  transition: transform 0.2s ease, filter 0.2s ease;
+
+}
+
+.Level-Input:hover {
+  transform: scale(1.05);
+  filter: brightness(0.8);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 26px;
+}
+
+
+/* Selection Box Images */
+
+.selection-box-images {
+  display: block;
+  margin: 0 auto;
+  width: 450px; 
 }

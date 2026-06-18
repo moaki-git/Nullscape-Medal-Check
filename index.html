@@ -13,15 +13,30 @@
 <img src="Images/Theming/Curses.png" class="center-image">
 
 <div class="top-row">
+    
     <button class="button-question" id="help">?</button>
+    <form class="form-group">
+     <label class="Label-Color">Level:</label>
+     <input type="number" id="level" class="Level-Input">
+    </form>
+    <form class="form-group">
+     <label class="Label-Color">Players:</label>
+     <input type="number" id="level" min="1" max="20" class="Level-Input">
+    </form>
     <div class="selection-area">
+        <form class="form-group">
+        <label class="Label-Color">Difficulty</label>
+        <div class="custom-dropdown" id="difficultyDropdown">
+          <div class="dropdown-selected" id="dropdownSelected">
+            Select..
+            </div>
 
-        <select id="difficulty" class="difficulty">
-            <option value="">Select Difficulty..</option>
-            <option value="C">Casual</option>
-            <option value="S">Standard</option>
-            <option value="E">Extreme</option>
-        </select>
+            <div class="dropdown-menu" id="dropdownMenu">
+              <div class="dropdown-item" data-value="C">Casual</div>
+              <div class="dropdown-item" data-value="S">Standard</div>
+              <div class="dropdown-item" data-value="E">Extreme</div>
+            </div>
+        </div>
 
         <div id="imageBox" class="image-box">
             <img id="difficultyImage"
@@ -30,16 +45,15 @@
         </div>
         <script src="SSZR.js"></script>
     </div>
+    </form>
 </div>
 
-<div class="container-yep">
-    <h1>ENEMY SELECTIONS</h1>
-    still in development 🔨
+<div class="container-enemies">
+  <img src="Images/Theming/Enemiesheader.png"  class="selection-box-images">
 </div>
 
-<div class="container-gc">
-    <h1>GREATER CURSES</h1>
-    still in development 🔨
+<div class="container-greater-curses">
+    <img src="Images/Theming/GreaterCursesheader.png" class="selection-box-images">
 </div>
 
 
