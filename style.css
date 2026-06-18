@@ -455,8 +455,8 @@ h1 {
 
 .enemy-image {
 
-    width: 72px;
-    height: 72px;
+    width: 100px;
+    height: 100px;
 
     object-fit: contain;
 }
@@ -575,4 +575,14 @@ h1 {
         opacity .25s ease,
         transform .2s ease,
         box-shadow .2s ease;
+}
+
+.level-text {
+   color: var(--primary-text);
+   font-family: 'Roboto', monospace;
+   text-align: center;
+
+   text-shadow:
+    0 0 10px rgba(212,179,255,.2),
+    0 0 25px rgba(212,179,255,.08);
 }
